@@ -19,3 +19,10 @@ Define a set of common units for thermoelectricity(TE)
 | $C_p$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity |
 | _a_ | a | mm<sup>2</sup>·s<sup>-1</sup> | thermal diffusivity |
 | _Ξ_ | Edef | eV | deformation potential constant |
+| $C_{ii}$ | Cii | GPa (=10<sup>9</sup> Pa) | elastic constant |
+| $\kappa_{e}$ | Ke | W·m<sup>-1</sup>·K<sup>-1</sup> | electronic thermal conductivity |
+| $\kappa_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | lattice thermal conductivity |
+| $\kappa_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | bipolar thermal conductivity |
+| _v_ | v | km·s<sup>-1</sup> | sound velocity |
+| $v_{l}$ | vl | km·s<sup>-1</sup> | longitudinal sound velocity |
+| $v_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
