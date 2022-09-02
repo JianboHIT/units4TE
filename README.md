@@ -16,7 +16,8 @@ Define a set of common units for thermoelectricity(TE)
 | $m^{\*}$ | m_eff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | carrier effective mass |
 | _L_ | L | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | Lorenz number |
 | $\rho$ | D | g·cm<sup>-3</sup> | density |
-| $C_p$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity |
+| $C_p$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant pressure |
+| $C_v$ | Cv | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant volume |
 | _a_ | a | mm<sup>2</sup>·s<sup>-1</sup> | thermal diffusivity |
 | _Ξ_ | Edef | eV | deformation potential constant |
 | $C_{ii}$ | Cii | GPa (=10<sup>9</sup> Pa) | elastic constant |
