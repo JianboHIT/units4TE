@@ -38,5 +38,5 @@ Define a set of common units for thermoelectricity(TE)
 | _j_ | Jd | A·cm<sup>-2</sup> | current density |
 | $R_{L}$ | RL | Ω | load electric resistance |
 | $V_{out}$ | Vout | mV | output voltage |
-| $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-1</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
+| $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
 | $\kappa_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
