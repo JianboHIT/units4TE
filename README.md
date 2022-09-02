@@ -27,3 +27,16 @@ Define a set of common units for thermoelectricity(TE)
 | _v_ | v | km·s<sup>-1</sup> | sound velocity |
 | $v_{l}$ | vl | km·s<sup>-1</sup> | longitudinal sound velocity |
 | $v_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
+| $T_{c}$ | Tc | K | temperature at the cold side |
+| $T_{h}$ | Th | K | temperature at the hot side |
+| $ZT_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
+| $PF_{eng}$ | PFeng | μW·cm<sup>-1</sup>·K<sup>-2</sup> | engineering power factor |
+| $P_{d}$ | Pd | W·cm<sup>-2</sup> | output power density |
+| $\eta$ | Yita | % | thermoelectric conversion efficiency |
+| $Q_{hot}$ | Qhot |  W·cm<sup>-2</sup> | heat flux at the hot side |
+| $I$ | I | A | load current |
+| _j_ | Jd | A·cm<sup>-2</sup> | current density |
+| $R_{L}$ | RL | Ω | load electric resistance |
+| $V_{out}$ | Vout | mV | output voltage |
+| $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-1</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
+| $\kappa_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
