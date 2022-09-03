@@ -62,17 +62,18 @@ Define a set of common units for thermoelectricity(TE)
 - Lorenz number of metals: `2.4430`
 
 ### Part III: Units conversion
-- Hartree atomic units
-  * 1 Bohr = 0.529 A
-  * 1 Hartree = 27.211 eV = 2 Ry
-- pressure
-  * 1 GPa = 10 kbar
-  * 1 atm = 0.1013 MPa = 760 Torr(mmHg)
-  * 1 Torr(mmHg) = 133.322 Pa
-- phonon frequencies
-  * 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
-  * 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
-  * 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
-- Debye Temperature and Debye frequency
-  * 100 K ~ 2.08 THz
-  * 1 THz ~ 47.99 K
+- ***Hartree atomic units***
+     - 1 Bohr = 0.529 A
+     - 1 Hartree = 27.211 eV = 2 Ry
+- ***pressure***
+     - 1 GPa = 10 kbar
+     - 1 atm = 0.1013 MPa = 760 Torr(mmHg)
+     - 1 Torr(mmHg) = 133.322 Pa
+- ***phonon frequencies***
+     - 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
+     - 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
+     - 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
+- ***Debye temperature and Debye frequency***
+     - 100 K ~ 2.08 THz
+     - 1 THz ~ 47.99 K
+
