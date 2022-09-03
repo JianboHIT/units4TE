@@ -51,8 +51,8 @@ Define a set of common units for thermoelectricity(TE)
 - electrical conductivity: `C = 1.6 N·U`
 - power factor: `PF = 1E-6 S^2·C`
 - dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
-- thermal conductivity: `K = a·D·Cp` (factor is equal 1)
-- relaxation time: `tau = 1/freq` (factor is equal 1)
+- thermal conductivity: `K = a·D·Cp` (factor is equal to 1)
+- relaxation time: `tau = 1/freq` (factor is equal to 1)
 - Boltzmann constant ( $k\_{B}$ ): `8.6173E-5 eV/K`
 - $k\_{B}/e$ : `86.1733 μV/K`
 - $k\_{B}T$ at 100 K: `8.6173 meV`
