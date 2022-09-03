@@ -19,6 +19,7 @@ Define a set of common units for thermoelectricity(TE)
 | $C\_{p}$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant pressure |
 | $C\_{v}$ | Cv | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant volume |
 | $a$ | a | mm<sup>2</sup>·s<sup>-1</sup> | thermal diffusivity |
+| $a\_{0}$ | a0 | Å (ångström, =10<sup>-10</sup> m) | lattice constant |
 | $\Xi$ | Edef | eV | deformation potential constant |
 | $C\_{ii}$ | Cii | GPa (=10<sup>9</sup> Pa) | elastic constant |
 | $\kappa_{e}$ | Ke | W·m<sup>-1</sup>·K<sup>-1</sup> | electronic thermal conductivity |
@@ -27,6 +28,9 @@ Define a set of common units for thermoelectricity(TE)
 | $v$ | v | km·s<sup>-1</sup> | sound velocity |
 | $v\_{l}$ | vl | km·s<sup>-1</sup> | longitudinal sound velocity |
 | $v\_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
+| $\tau$ | tau | ps (=10<sup>-12</sup> s) | relaxation time or quantum lifetime |
+| $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | ordinal frequency |
+| $\omega$ | w | rad·ps<sup>-1</sup> | angular frequency |
 | $T\_{c}$ | Tc | K | temperature at the cold side |
 | $T\_{h}$ | Th | K | temperature at the hot side |
 | $ZT\_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
