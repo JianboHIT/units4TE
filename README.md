@@ -25,9 +25,9 @@ Define a set of common units for thermoelectricity(TE)
 | $a\_{0}$ | a0 | Å (ångström, =10<sup>-10</sup> m) | lattice constant |
 | $\Xi$ | Edef | eV | deformation potential constant |
 | $C\_{ii}$ | Cii | GPa (=10<sup>9</sup> Pa) | elastic constant |
-| $\kappa_{e}$ | Ke | W·m<sup>-1</sup>·K<sup>-1</sup> | electronic thermal conductivity |
-| $\kappa_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | lattice thermal conductivity |
-| $\kappa_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | bipolar thermal conductivity |
+| $\kappa\_{e}$ | Ke | W·m<sup>-1</sup>·K<sup>-1</sup> | electronic thermal conductivity |
+| $\kappa\_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | lattice thermal conductivity |
+| $\kappa\_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | bipolar thermal conductivity |
 | $v$ | v | km·s<sup>-1</sup> | sound velocity |
 | $v\_{l}$ | vl | km·s<sup>-1</sup> | longitudinal sound velocity |
 | $v\_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
