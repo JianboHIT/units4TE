@@ -2,6 +2,7 @@
 Define a set of common units for thermoelectricity(TE)
 - [Part I: Common Units of Properties](#part-i-common-units-of-properties)
 - [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
+- [Part III: Units conversion](#part-iii-units-conversion)
 
 ### Part I: Common Units of Properties
 | Symbol | Plaintext | Unit | Description |
@@ -32,7 +33,7 @@ Define a set of common units for thermoelectricity(TE)
 | $v\_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
 | $\tau$ | tau | ps (=10<sup>-12</sup> s) | relaxation time or quantum lifetime |
 | $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | ordinal frequency |
-| $\omega$ | w | rad·ps<sup>-1</sup> | angular frequency |
+| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | angular frequency |
 | $T\_{c}$ | Tc | K | temperature at the cold side |
 | $T\_{h}$ | Th | K | temperature at the hot side |
 | $ZT\_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
@@ -59,3 +60,19 @@ Define a set of common units for thermoelectricity(TE)
 - $k\_{B}T$ at 300 K: `25.8520 meV`
 - temperature where $k\_{B}T$ is 0.1 eV: `1160.45 K`
 - Lorenz number of metals: `2.4430`
+
+### Part III: Units conversion
+- Hartree atomic units
+  * 1 Bohr = 0.529 A
+  * 1 Hartree = 27.211 eV = 2 Ry
+- pressure
+  * 1 GPa = 10 kbar
+  * 1 atm = 0.1013 MPa = 760 Torr(mmHg)
+  * 1 Torr(mmHg) = 133.322 Pa
+- phonon frequencies
+  * 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
+  * 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
+  * 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
+- Debye Temperature and Debye frequency
+  * 100 K ~ 2.08 THz
+  * 1 THz ~ 47.99 K
