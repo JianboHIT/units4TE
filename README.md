@@ -1,7 +1,9 @@
 # units4TE
 Define a set of common units for thermoelectricity(TE)
+- [Part I: Common Units of Properties](#part-i-common-units-of-properties)
+- [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
 
-
+### Part I: Common Units of Properties
 | Symbol | Plaintext | Unit | Description |
 | :----: | :-------: | ---- | ----------- |
 | $T$ | T | K | absolute temperature in Kelvin |
@@ -44,3 +46,16 @@ Define a set of common units for thermoelectricity(TE)
 | $V\_{out}$ | Vout | mV | output voltage |
 | $R\_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
 | $\kappa\_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
+
+### Part II: Useful Conversion Factors and Relationships
+- electrical conductivity: `C = 1.6 N·U`
+- power factor: `PF = 1E-6 S^2·C`
+- dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
+- thermal conductivity: `K = a·D·Cp` (factor is equal 1)
+- relaxation time: `tau = 1/freq` (factor is equal 1)
+- Boltzmann constant ( $k\_{B}$ ): `8.6173E-5 eV/K`
+- $k\_{B}/e$ : `86.1733 μV/K`
+- $k\_{B}T$ at 100 K: `8.6173 meV`
+- $k\_{B}T$ at 300 K: `25.8520 meV`
+- temperature where $k\_{B}T$ is 0.1 eV: `1160.45 K`
+- Lorenz number of metals: `2.4430`
