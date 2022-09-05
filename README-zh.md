@@ -66,18 +66,18 @@
 
 ### Part III: 单位换算关系
 
-- ***Hartree 原子单位制***
-     - 1 Bohr = 0.529 A
-     - 1 Hartree = 27.211 eV = 2 Ry
-- ***压力***
-     - 1 GPa = 10 kbar
-     - 1 atm = 0.1013 MPa = 760 Torr(mmHg)
-     - 1 Torr(mmHg) = 133.322 Pa
-- ***声子频率***
-     - 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
-     - 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
-     - 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
-- ***德拜温度和德拜频率***
-     - 100 K ~ 2.08 THz
-     - 1 THz ~ 47.99 K
+- **Hartree 原子单位制**
+    - 1 Bohr = 0.529 A
+    - 1 Hartree = 27.211 eV = 2 Ry
+- **压力**
+    - 1 GPa = 10 kbar
+    - 1 atm = 0.1013 MPa = 760 Torr(mmHg)
+    - 1 Torr(mmHg) = 133.322 Pa
+- **声子频率**
+    - 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
+    - 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
+    - 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
+- **德拜温度和德拜频率**
+    - 100 K ~ 2.08 THz
+    - 1 THz ~ 47.99 K
 
