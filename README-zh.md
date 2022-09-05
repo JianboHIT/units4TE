@@ -1,9 +1,9 @@
 ﻿# units4TE
 约定一些热电领域中物理量的常用单位
 
-- [Part I: Common Units of Properties](#part-i-common-units-of-properties)
-- [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
-- [Part III: Units conversion](#part-iii-units-conversion)
+- [Part I: 一些物理量的常用单位](#part-i-%E4%B8%80%E4%BA%9B%E7%89%A9%E7%90%86%E9%87%8F%E7%9A%84%E5%B8%B8%E7%94%A8%E5%8D%95%E4%BD%8D)
+- [Part II: 一些常用的关系及其系数](#part-ii-%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E5%85%B3%E7%B3%BB%E5%8F%8A%E5%85%B6%E7%B3%BB%E6%95%B0)
+- [Part III: 单位换算关系](#part-iii-%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97%E5%85%B3%E7%B3%BB)
 
 ### Part I: 一些物理量的常用单位
 
@@ -51,6 +51,7 @@
 | $\kappa_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | 接触热导 |
 
 ### Part II: 一些常用的关系及其系数
+
 - 电导率: `C = 1.6 N·U`
 - 功率因子: `PF = 1E-6 S^2·C`
 - 无量纲热电优值: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
@@ -64,6 +65,7 @@
 - 金属的洛伦兹常数: `2.4430`
 
 ### Part III: 单位换算关系
+
 - ***Hartree 原子单位制***
      - 1 Bohr = 0.529 A
      - 1 Hartree = 27.211 eV = 2 Ry
