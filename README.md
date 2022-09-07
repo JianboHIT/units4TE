@@ -1,6 +1,8 @@
 ﻿# units4TE
 Define a set of common units for thermoelectricity(TE)
 
+_Read this in other languages: 简体中文[README-zh.md], English_
+
 - [Part I: Common Units of Properties](#part-i-common-units-of-properties)
 - [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
 - [Part III: Units conversion](#part-iii-units-conversion)
