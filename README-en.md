@@ -20,7 +20,8 @@
 | $n$ | N | 10<sup>19</sup> cm<sup>-3</sup> | carrier concentration |
 | $\mu$ | U | cm<sup>2</sup>·V<sup>-1</sup>·s<sup>-1</sup> | carrier mobility |
 | $m^{*}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | carrier effective mass |
-| $L$ | L | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | Lorenz number |
+| $L$ | Lz | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | Lorenz number |
+| $L$ | L | mm | length of thermoelectric leg |
 | $\rho$ | D | g·cm<sup>-3</sup> | density |
 | $C_{p}$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant pressure |
 | $C_{v}$ | Cv | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant volume |

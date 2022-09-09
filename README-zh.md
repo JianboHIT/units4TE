@@ -23,7 +23,8 @@
 | $n$ | N | 10<sup>19</sup> cm<sup>-3</sup> | 载流子浓度 |
 | $\mu$ | U | cm<sup>2</sup>·V<sup>-1</sup>·s<sup>-1</sup> | 载流子迁移率 |
 | $m^{*}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | 载流子有效质量 |
-| $L$ | L | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | 洛伦兹常数 |
+| $L$ | Lz | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | 洛伦兹常数 |
+| $L$ | L | mm | 器件长度 |
 | $\rho$ | D | g·cm<sup>-3</sup> | 密度 |
 | $C_{p}$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | 定压比热 |
 | $C_{v}$ | Cv | J·g<sup>-1</sup>·K<sup>-1</sup> | 定容比热 |
