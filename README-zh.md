@@ -43,6 +43,7 @@
 | $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | 角频率 |
 | $T_{c}$ | Tc | K | 热端温度 |
 | $T_{h}$ | Th | K | 冷端温度 |
+| $ZT_{device}$ | ZTdev | 1 (dimensionless) | 器件热电优值 |
 | $ZT_{eng}$ | ZTeng | 1 (dimensionless) | 工程热电优值 |
 | $PF_{eng}$ | PFeng | μW·cm<sup>-1</sup>·K<sup>-2</sup> | 工程功率因子 |
 | $P_{d}$ | Pd | W·cm<sup>-2</sup> | 输出功率密度 |
