@@ -42,8 +42,8 @@
 | $T_{h}$ | Th | K | temperature at the hot side |
 | $s$ | CF | V<sup>-1</sup> | compatibility factor |
 | $ZT_{device}$ | ZTdev | 1 (dimensionless) | device dimensionless figure-of-merit |
-| $ZT_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
-| $PF_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | engineering power factor |
+| $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
+| $(PF)_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | engineering power factor |
 | $P_{d}$ | Pd | W·cm<sup>-2</sup> | output power density |
 | $\eta$ | Yita | % | thermoelectric conversion efficiency |
 | $Q_{hot}$ | Qhot |  W·cm<sup>-2</sup> | heat flux at the hot side |

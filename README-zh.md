@@ -45,8 +45,8 @@
 | $T_{h}$ | Th | K | 冷端温度 |
 | $s$ | CF | V<sup>-1</sup> | 相容性因子 |
 | $ZT_{device}$ | ZTdev | 1 (dimensionless) | 器件热电优值 |
-| $ZT_{eng}$ | ZTeng | 1 (dimensionless) | 工程热电优值 |
-| $PF_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | 工程功率因子 |
+| $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | 工程热电优值 |
+| $(PF)_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | 工程功率因子 |
 | $P_{d}$ | Pd | W·cm<sup>-2</sup> | 输出功率密度 |
 | $\eta$ | Yita | % | 热电转化效率 |
 | $Q_{hot}$ | Qhot |  W·cm<sup>-2</sup> | 热端热流密度 |
