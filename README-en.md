@@ -3,6 +3,21 @@
 
 > Read this in other languages: [简体中文](README-zh.md), English
 
+&nbsp;&nbsp;&nbsp;&nbsp;In thermoelectrics, some common units (non-SI units) 
+are frequently used. For example, S/cm, 10<sup>4</sup> S/m, μΩ·m and mΩ·cm can all be used 
+to characterize the electrical conductivity of a material and have been widely used. 
+It is kind of unfriendly to beginners, especially when dealing with the combined physical properties, 
+they have to spend a lot of time on careful proofreading. 
+Here we define a set of common units and give the corresponding conversion factors 
+for some typical combined physical properties. 
+We expect this to be helpful to beginners, 
+and highly recommend regarding them as the default physical units 
+for the convenience of routine work and program interface design. 
+In addition, we establish a set of plaintext symbols 
+(excluding superscripts, subscripts and Latin characters) 
+to indicate physical properties, which can be better supported by some text editors 
+and enhances the readability of program scripts.
+
 - [Part I: Common Units of Properties](#part-i-common-units-of-properties)
 - [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
 - [Part III: Units Conversion](#part-iii-units-conversion)
