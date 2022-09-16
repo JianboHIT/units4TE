@@ -5,9 +5,12 @@
 
 - [Part I: Common Units of Properties](#part-i-common-units-of-properties)
 - [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
-- [Part III: Units conversion](#part-iii-units-conversion)
+- [Part III: Units Conversion](#part-iii-units-conversion)
+- [Part IV: Data Template](#part-iv-data-template)
+
 
 ### Part I: Common Units of Properties
+
 | Symbol | Plaintext | Unit | Description |
 | :----: | :-------: | ---- | ----------- |
 | $T$ | T | K | absolute temperature in Kelvin |
@@ -54,7 +57,9 @@
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
 | $\kappa_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
 
+
 ### Part II: Useful Conversion Factors and Relationships
+
 - electrical conductivity: `C = 1.6 N·U`
 - power factor: `PF = 1E-6 S^2·C`
 - dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
@@ -67,7 +72,9 @@
 - temperature where $k_{B}T$ is 0.1 eV: `1160.45 K`
 - Lorenz number of metals: `2.4430`
 
-### Part III: Units conversion
+
+### Part III: Units Conversion
+
 - ***Hartree atomic units***
      - 1 Bohr = 0.529 A
      - 1 Hartree = 27.211 eV = 2 Ry
@@ -82,6 +89,7 @@
 - ***Debye temperature and Debye frequency***
      - 100 K ~ 2.08 THz
      - 1 THz ~ 47.99 K
+
 
 ### Part IV: Data Template
 
