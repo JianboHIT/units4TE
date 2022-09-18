@@ -60,7 +60,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $T_{c}$ | Tc | K | 热端温度 |
 | $T_{h}$ | Th | K | 冷端温度 |
 | $s$ | CF | V<sup>-1</sup> | 相容性因子 |
-| $ZT_{device}$ | ZTdev | 1 (dimensionless) | 器件热电优值 |
+| $(ZT)_{dev}$ | ZTdev | 1 (dimensionless) | 器件热电优值 |
 | $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | 工程热电优值 |
 | $(PF)_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | 工程功率因子 |
 | $P_{d}$ | Pd | W·cm<sup>-2</sup> | 输出功率密度 |

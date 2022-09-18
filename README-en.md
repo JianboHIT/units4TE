@@ -59,7 +59,7 @@ and enhances the readability of program scripts.
 | $T_{c}$ | Tc | K | temperature at the cold side |
 | $T_{h}$ | Th | K | temperature at the hot side |
 | $s$ | CF | V<sup>-1</sup> | compatibility factor |
-| $ZT_{device}$ | ZTdev | 1 (dimensionless) | device dimensionless figure-of-merit |
+| $(ZT)_{dev}$ | ZTdev | 1 (dimensionless) | device dimensionless figure-of-merit |
 | $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
 | $(PF)_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | engineering power factor |
 | $P_{d}$ | Pd | W·cm<sup>-2</sup> | output power density |
