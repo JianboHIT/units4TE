@@ -80,6 +80,7 @@ and enhances the readability of program scripts.
 - dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
 - compatibility factor: `CF = 1E6 [sqrt(1+ZT)-1]/(S·T)`
 - thermal conductivity: `K = a·D·Cp` (factor is equal to 1)
+- elastic constant: `Cii = D·vl^2` (factor is equal to 1)
 - relaxation time: `tau = 1/freq` (factor is equal to 1)
 - Boltzmann constant ( $k_{B}$ ): `8.6173E-5 eV/K`
 - $k_{B}/e$ : `86.1733 μV/K`
