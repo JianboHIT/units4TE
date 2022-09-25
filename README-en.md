@@ -30,6 +30,7 @@ and enhances the readability of program scripts.
 | :----: | :-------: | ---- | ----------- |
 | $T$ | T | K | absolute temperature in Kelvin |
 | $\sigma$ | C | S·cm<sup>-1</sup> | electrical conductivity |
+| $\rho$ | Rho | μΩ·m | electrical resistivity |
 | $S$ | S | μV·K<sup>-1</sup> | Seebeck coefficient or thermopower |
 | $\kappa$ | K | W·m<sup>-1</sup>·K<sup>-1</sup> | thermal conductivity |
 | $PF$ | PF | μW·cm<sup>-1</sup>·K<sup>-2</sup> | power factor |
@@ -76,6 +77,7 @@ and enhances the readability of program scripts.
 ### Part II: Useful Conversion Factors and Relationships
 
 - electrical conductivity: `C = 1.6 N·U`
+- electrical resistivity: `Rho = 1E4 /C`
 - power factor: `PF = 1E-6 S^2·C`
 - dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
 - compatibility factor: `CF = 1E6 [sqrt(1+ZT)-1]/(S·T)`
