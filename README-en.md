@@ -78,7 +78,7 @@ and enhances the readability of program scripts.
 
 - electrical conductivity: `C = 1.6 N·U`
 - electrical resistivity: `Rho = 1E4 /C`
-- power factor: `PF = 1E-6 S^2·C`
+- power factor: `PF = 1E-6 S^2·C = 1E-2 S^2/Rho`
 - dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
 - compatibility factor: `CF = 1E6 [sqrt(1+ZT)-1]/(S·T)`
 - thermal conductivity: `K = a·D·Cp` (factor is equal to 1)
