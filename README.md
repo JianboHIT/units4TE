@@ -72,7 +72,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $R_{L}$ | RL | Ω | 负载电阻 |
 | $V_{out}$ | Vout | mV | 输出电压 |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | 接触电阻 |
-| $\kappa_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | 接触热导 |
+| $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | 接触热导 |
 
 
 ### Part II: 一些常用的关系及其系数

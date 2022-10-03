@@ -71,7 +71,7 @@ and enhances the readability of program scripts.
 | $R_{L}$ | RL | Ω | load electric resistance |
 | $V_{out}$ | Vout | mV | output voltage |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
-| $\kappa_{c}$ | Kc | W·m<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
+| $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
 
 
 ### Part II: Useful Conversion Factors and Relationships
