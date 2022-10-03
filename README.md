@@ -1,128 +1,131 @@
 ﻿# units4TE
-**热电领域中常见物理量的惯用单位总结**
+***Define a set of common units for thermoelectricity(TE)***
 
-> 选择语言：简体中文, [English](README-en.md)
+> Read this in other languages: [简体中文](README-zh.md), English
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在热电研究领域中，
-有些物理量通常会使用一些非国际标准的惯用物理单位，
-而且有的物理量可能存在多个惯用单位，比如对于导电性，
-S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使用。
-这对新手并不友好，尤其是在处理一些组合物理量时，
-经常需要非常仔细的校对检查才能确保正确。
-我们这里总结并约定了一些常见物理量的惯用单位，
-给出常见组合参数的换算系数，既方便初学者能够快速熟悉这些惯用物理单位，
-并且也倡导大家能够统一惯用单位以方便数据的直接对比和后处理程序的开发。
-此外，还有一些物理量的惯用符号不但包含英文字符，
-还包含一些希腊字符、拉丁字符以及上下标等扩展符号格式，
-在一些文本编辑器中并不能够很好地被支持，
-因此我们这里还约定了一套简单的纯英文字符来表示原先包含扩展字符的变量。
-遵照这些约定，我们不但能够更加方便地设计程序处理接口，
-还可以增强程序的可读性，从而提高程序开发者和使用者的工作效率。
+&nbsp;&nbsp;&nbsp;&nbsp;In thermoelectrics, some common units (non-SI units) 
+are frequently used. For example, S/cm, 10<sup>4</sup> S/m, μΩ·m and mΩ·cm can all be used 
+to characterize the electrical conductivity of a material and have been widely used. 
+It is kind of unfriendly to beginners, especially when dealing with the combined physical properties, 
+they have to spend a lot of time on careful proofreading. 
+Here we define a set of common units and give the corresponding conversion factors 
+for some typical combined physical properties. 
+We expect this to be helpful to beginners, 
+and highly recommend regarding them as the default physical units 
+for the convenience of routine work and program interface design. 
+In addition, we establish a set of plaintext symbols 
+(excluding superscripts, subscripts and Latin characters) 
+to indicate physical properties, which can be better supported by some text editors 
+and enhances the readability of program scripts.
 
-- [Part I: 一些物理量的常用单位](#part-i-%E4%B8%80%E4%BA%9B%E7%89%A9%E7%90%86%E9%87%8F%E7%9A%84%E5%B8%B8%E7%94%A8%E5%8D%95%E4%BD%8D)
-- [Part II: 一些常用的关系及其系数](#part-ii-%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E5%85%B3%E7%B3%BB%E5%8F%8A%E5%85%B6%E7%B3%BB%E6%95%B0)
-- [Part III: 单位换算关系](#part-iii-%E5%8D%95%E4%BD%8D%E6%8D%A2%E7%AE%97%E5%85%B3%E7%B3%BB)
-- [Part IV: 数据模板](#part-iv-%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%9D%BF)
+- [Part I: Common Units of Properties](#part-i-common-units-of-properties)
+- [Part II: Useful Conversion Factors and Relationships](#part-ii-useful-conversion-factors-and-relationships)
+- [Part III: Units Conversion](#part-iii-units-conversion)
+- [Part IV: Data Template](#part-iv-data-template)
 
 
-### Part I: 一些物理量的常用单位
+### Part I: Common Units of Properties
 
-| 符号 | 扁平文本 | 单位 | 描述 |
+| Symbol | Plaintext | Unit | Description |
 | :----: | :-------: | ---- | ----------- |
-| $T$ | T | K | 开氏绝对温度 |
-| $\sigma$ | C | S·cm<sup>-1</sup> | 电导率 |
-| $\rho$ | Rho | μΩ·m | 电阻率 |
-| $S$ | S | μV·K<sup>-1</sup> | 塞贝克系数或者热电势 |
-| $\kappa$ | K | W·m<sup>-1</sup>·K<sup>-1</sup> | 热导率 |
-| $PF$ | PF | μW·cm<sup>-1</sup>·K<sup>-2</sup> | 功率因子 |
-| $z$ | Z | K<sup>-1</sup> | 热电材料优值 |
-| $ZT$ | ZT | 1 (dimensionless) | 无量纲热电优值 |
-| $n$ | N | 10<sup>19</sup> cm<sup>-3</sup> | 载流子浓度 |
-| $\mu$ | U | cm<sup>2</sup>·V<sup>-1</sup>·s<sup>-1</sup> | 载流子迁移率 |
-| $m^{*}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | 载流子有效质量 |
-| $L$ | LZ | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | 洛伦兹常数 |
-| $L$ | L | mm | 器件长度 |
-| $\rho$ | D | g·cm<sup>-3</sup> | 密度 |
-| $C_{p}$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | 定压比热 |
-| $C_{v}$ | Cv | J·g<sup>-1</sup>·K<sup>-1</sup> | 定容比热 |
-| $a$ | a | mm<sup>2</sup>·s<sup>-1</sup> | 热扩散系数 |
-| $a_{0}$ | a0 | Å (ångström, =10<sup>-10</sup> m) | 晶格常数 |
-| $\Xi$ | Edef | eV | 形变势 |
-| $C_{ii}$ | Cii | GPa (=10<sup>9</sup> Pa) | 弹性常数 |
-| $\kappa_{e}$ | Ke | W·m<sup>-1</sup>·K<sup>-1</sup> | 电子热导率 |
-| $\kappa_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | 晶格热导率 |
-| $\kappa_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | 双极化热导率 |
-| $v$ | v | km·s<sup>-1</sup> | 声速 |
-| $v_{l}$ | vl | km·s<sup>-1</sup> | 纵向声速 |
-| $v_{t}$ | vt | km·s<sup>-1</sup> | 横向声速 |
-| $\tau$ | tau | ps (=10<sup>-12</sup> s) | 弛豫时间或粒子寿命 |
-| $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | 圆频率 |
-| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | 角频率 |
-| $T_{c}$ | Tc | K | 热端温度 |
-| $T_{h}$ | Th | K | 冷端温度 |
-| $s$ | CF | V<sup>-1</sup> | 相容性因子 |
-| $(ZT)_{dev}$ | ZTdev | 1 (dimensionless) | 器件热电优值 |
-| $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | 工程热电优值 |
-| $(PF)_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | 工程功率因子 |
-| $P_{d}$ | Pd | W·cm<sup>-2</sup> | 输出功率密度 |
-| $\eta$ | Yita | % | 热电转化效率 |
-| $Q_{hot}$ | Qhot |  W·cm<sup>-2</sup> | 热端热流密度 |
-| $I$ | I | A | 工作电流 |
-| $j$ | Jd | A·cm<sup>-2</sup> | 电流密度 |
-| $R_{L}$ | RL | Ω | 负载电阻 |
-| $V_{out}$ | Vout | mV | 输出电压 |
-| $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | 接触电阻 |
-| $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | 接触热导 |
+| $T$ | T | K | absolute temperature in Kelvin |
+| $\sigma$ | C | S·cm<sup>-1</sup> | electrical conductivity |
+| $\rho$ | Rho | μΩ·m | electrical resistivity |
+| $S$ | S | μV·K<sup>-1</sup> | Seebeck coefficient or thermopower |
+| $\kappa$ | K | W·m<sup>-1</sup>·K<sup>-1</sup> | thermal conductivity |
+| $PF$ | PF | μW·cm<sup>-1</sup>·K<sup>-2</sup> | power factor |
+| $z$ | Z | K<sup>-1</sup> | figure-of-merit of thermoelectric material |
+| $ZT$ | ZT | 1 (dimensionless) | dimensionless figure-of-merit |
+| $n$ | N | 10<sup>19</sup> cm<sup>-3</sup> | carrier concentration |
+| $\mu$ | U | cm<sup>2</sup>·V<sup>-1</sup>·s<sup>-1</sup> | carrier mobility |
+| $m^{*}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | carrier effective mass |
+| $L$ | LZ | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | Lorenz number |
+| $L$ | L | mm | length of thermoelectric leg |
+| $\rho$ | D | g·cm<sup>-3</sup> | density |
+| $C_{p}$ | Cp | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant pressure |
+| $C_{v}$ | Cv | J·g<sup>-1</sup>·K<sup>-1</sup> | specific heat capacity at constant volume |
+| $a$ | a | mm<sup>2</sup>·s<sup>-1</sup> | thermal diffusivity |
+| $a_{0}$ | a0 | Å (ångström, =10<sup>-10</sup> m) | lattice constant |
+| $\Xi$ | Edef | eV | deformation potential constant |
+| $C_{ii}$ | Cii | GPa (=10<sup>9</sup> Pa) | elastic constant |
+| $\kappa_{e}$ | Ke | W·m<sup>-1</sup>·K<sup>-1</sup> | electronic thermal conductivity |
+| $\kappa_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | lattice thermal conductivity |
+| $\kappa_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | bipolar thermal conductivity |
+| $v$ | v | km·s<sup>-1</sup> | sound velocity |
+| $v_{l}$ | vl | km·s<sup>-1</sup> | longitudinal sound velocity |
+| $v_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
+| $\tau$ | tau | ps (=10<sup>-12</sup> s) | relaxation time or quantum lifetime |
+| $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | ordinal frequency |
+| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | angular frequency |
+| $T_{c}$ | Tc | K | temperature at the cold side |
+| $T_{h}$ | Th | K | temperature at the hot side |
+| $s$ | CF | V<sup>-1</sup> | compatibility factor |
+| $(ZT)_{dev}$ | ZTdev | 1 (dimensionless) | device dimensionless figure-of-merit |
+| $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
+| $(PF)_{eng}$ | PFeng | W·m<sup>-1</sup>·K<sup>-1</sup> | engineering power factor |
+| $P_{d}$ | Pd | W·cm<sup>-2</sup> | output power density |
+| $\eta$ | Yita | % | thermoelectric conversion efficiency |
+| $Q_{hot}$ | Qhot |  W·cm<sup>-2</sup> | heat flux at the hot side |
+| $I$ | I | A | load current |
+| $j$ | Jd | A·cm<sup>-2</sup> | current density |
+| $R_{L}$ | RL | Ω | load electric resistance |
+| $V_{out}$ | Vout | mV | output voltage |
+| $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
+| $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
 
 
-### Part II: 一些常用的关系及其系数
+### Part II: Useful Conversion Factors and Relationships
 
-- 电导率: `C = 1.6 N·U`
-- 电阻率: `Rho = 1E4 /C`
-- 功率因子: `PF = 1E-6 S^2·C = 1E-2 S^2/Rho`
-- 无量纲热电优值: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
-- 相容性因子: `CF = 1E6 [sqrt(1+ZT)-1]/(S·T)`
-- 热导率: `K = a·D·Cp` (换算系数恰好等于 1)
-- 弹性常数: `Cii = D·vl^2` (换算系数恰好等于 1)
-- 弛豫时间: `tau = 1/freq` (换算系数恰好等于 1)
-- 玻尔兹曼常数 ( $k_{B}$ ): `8.6173E-5 eV/K`
+- electrical conductivity: `C = 1.6 N·U`
+- electrical resistivity: `Rho = 1E4 /C`
+- power factor: `PF = 1E-6 S^2·C = 1E-2 S^2/Rho`
+- dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
+- compatibility factor: `CF = 1E6 [sqrt(1+ZT)-1]/(S·T)`
+- thermal conductivity: `K = a·D·Cp` (factor is equal to 1)
+- elastic constant: `Cii = D·vl^2` (factor is equal to 1)
+- relaxation time: `tau = 1/freq` (factor is equal to 1)
+- Boltzmann constant ( $k_{B}$ ): `8.6173E-5 eV/K`
 - $k_{B}/e$ : `86.1733 μV/K`
-- $k_{B}T$ @ 100 K: `8.6173 meV`
-- $k_{B}T$ @ 300 K: `25.8520 meV`
-- $k_{B}T$ 为 0.1 eV 时对应的温度: `1160.45 K`
-- 金属的洛伦兹常数: `2.4430`
+- $k_{B}T$ at 100 K: `8.6173 meV`
+- $k_{B}T$ at 300 K: `25.8520 meV`
+- temperature where $k_{B}T$ is 0.1 eV: `1160.45 K`
+- Lorenz number of metals: `2.4430`
 
 
-### Part III: 单位换算关系
+### Part III: Units Conversion
 
-- **Hartree 原子单位制**
-    - 1 Bohr = 0.529 A
-    - 1 Hartree = 27.211 eV = 2 Ry
-- **压力**
-    - 1 GPa = 10 kbar
-    - 1 atm = 0.1013 MPa = 760 Torr(mmHg)
-    - 1 Torr(mmHg) = 133.322 Pa
-- **声子频率**
-    - 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
-    - 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
-    - 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
-- **德拜温度和德拜频率**
-    - 100 K ~ 2.08 THz
-    - 1 THz ~ 47.99 K
+- ***Hartree atomic units***
+     - 1 Bohr = 0.529 A
+     - 1 Hartree = 27.211 eV = 2 Ry
+- ***pressure***
+     - 1 GPa = 10 kbar
+     - 1 atm = 0.1013 MPa = 760 Torr(mmHg)
+     - 1 Torr(mmHg) = 133.322 Pa
+- ***phonon frequencies***
+     - 1 THz = 4.136 meV = 33.356 cm<sup>−1</sup>
+     - 1 meV = 0.242 THz = 8.066 cm<sup>−1</sup>
+     - 1 cm<sup>−1</sup> = 0.030 THz = 0.124 meV
+- ***Debye temperature and Debye frequency***
+     - 100 K ~ 2.08 THz
+     - 1 THz ~ 47.99 K
 
 
-### Part IV: 数据模板
+### Part IV: Data Template
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这里展示了一个按列排放的数据模板（示例文件：
+&nbsp;&nbsp;&nbsp;&nbsp;Here is a recommended template file to save 
+column-indexed block-datas (see a example 
 *[DataTemplate.txt](DataTemplate.txt)*
-）。文件中每列数据对应一个物理量，具有相同的物理单位，而且每列的数据个数是一样的。
-数据的分隔符可以是空格或者制表符，文件名以 .txt 为扩展名。
-文件中以 "#" 号开头的行通常用来表示注解信息，比如日期，每列的变量名称、单位，
-个人的备注信息等。这种格式的文件可以被绝大多数文本编辑器处理，而且可读性较好。
+). Each column of data in the file corresponds to a property, 
+they share the same unit, and the number of data samples in each column 
+is the same. The file is delimited by spaces or tabs in the data block, 
+and the filename has .txt as its extension. Lines starting with "#" in 
+the file are usually interpreted as some comment information, such as date, 
+author, variable name of each column, unit, personal comment information, etc. 
+Data files in this format are highly readable and can be processed by most text editors.
 
 ```
-# Here are some comments. 
-# Multiple lines of comments are allowed, but they must 
+# Here are some comments.
+# Multiple lines of comments are allowed, but they must
 # all begin with the "#" character.
 # Blank lines will be ignored (as shown below).
 
