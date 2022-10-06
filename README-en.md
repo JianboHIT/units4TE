@@ -52,8 +52,8 @@ and enhances the readability of program scripts.
 | $\kappa_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | lattice thermal conductivity |
 | $\kappa_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | bipolar thermal conductivity |
 | $v$ | v | km·s<sup>-1</sup> | sound velocity |
-| $v_{l}$ | vl | km·s<sup>-1</sup> | longitudinal sound velocity |
-| $v_{t}$ | vt | km·s<sup>-1</sup> | transverse sound velocity |
+| $v_{l}$ | vL | km·s<sup>-1</sup> | longitudinal sound velocity |
+| $v_{t}$ | vT | km·s<sup>-1</sup> | transverse sound velocity |
 | $\tau$ | tau | ps (=10<sup>-12</sup> s) | relaxation time or quantum lifetime |
 | $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | ordinal frequency |
 | $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | angular frequency |

@@ -53,8 +53,8 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $\kappa_{L}$ | KL | W·m<sup>-1</sup>·K<sup>-1</sup> | 晶格热导率 |
 | $\kappa_{bip}$ | Kbip | W·m<sup>-1</sup>·K<sup>-1</sup> | 双极化热导率 |
 | $v$ | v | km·s<sup>-1</sup> | 声速 |
-| $v_{l}$ | vl | km·s<sup>-1</sup> | 纵向声速 |
-| $v_{t}$ | vt | km·s<sup>-1</sup> | 横向声速 |
+| $v_{l}$ | vL | km·s<sup>-1</sup> | 纵向声速 |
+| $v_{t}$ | vT | km·s<sup>-1</sup> | 横向声速 |
 | $\tau$ | tau | ps (=10<sup>-12</sup> s) | 弛豫时间或粒子寿命 |
 | $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | 圆频率 |
 | $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | 角频率 |
