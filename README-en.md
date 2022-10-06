@@ -38,7 +38,7 @@ and enhances the readability of program scripts.
 | $ZT$ | ZT | 1 (dimensionless) | dimensionless figure-of-merit |
 | $n$ | N | 10<sup>19</sup> cm<sup>-3</sup> | carrier concentration |
 | $\mu$ | U | cm<sup>2</sup>·V<sup>-1</sup>·s<sup>-1</sup> | carrier mobility |
-| $m^{*}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | carrier effective mass |
+| $m^{\ast}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | carrier effective mass |
 | $L$ | LZ | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | Lorenz number |
 | $L$ | L | mm | length of thermoelectric leg |
 | $\rho$ | D | g·cm<sup>-3</sup> | density |

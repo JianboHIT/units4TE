@@ -39,7 +39,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $ZT$ | ZT | 1 (dimensionless) | 无量纲热电优值 |
 | $n$ | N | 10<sup>19</sup> cm<sup>-3</sup> | 载流子浓度 |
 | $\mu$ | U | cm<sup>2</sup>·V<sup>-1</sup>·s<sup>-1</sup> | 载流子迁移率 |
-| $m^{*}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | 载流子有效质量 |
+| $m^{\ast}$ | meff | m<sub>e</sub> (=9.1093837015×10<sup>-31</sup> kg) | 载流子有效质量 |
 | $L$ | LZ | 10<sup>-8</sup> V<sup>2</sup>·K<sup>-2</sup> (or 10<sup>-8</sup> W·Ω·K<sup>-2</sup>) | 洛伦兹常数 |
 | $L$ | L | mm | 器件长度 |
 | $\rho$ | D | g·cm<sup>-3</sup> | 密度 |
