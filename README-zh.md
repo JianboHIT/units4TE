@@ -60,6 +60,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | 角频率 |
 | $T_{c}$ | Tc | K | 热端温度 |
 | $T_{h}$ | Th | K | 冷端温度 |
+| $\Delta T$ | DT | K | 温度差 (Th-Tc) |
 | $s$ | CF | V<sup>-1</sup> | 相容性因子 |
 | $(ZT)_{dev}$ | ZTdev | 1 (dimensionless) | 器件热电优值 |
 | $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | 工程热电优值 |

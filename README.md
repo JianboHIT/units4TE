@@ -59,6 +59,7 @@ and enhances the readability of program scripts.
 | $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | angular frequency |
 | $T_{c}$ | Tc | K | temperature at the cold side |
 | $T_{h}$ | Th | K | temperature at the hot side |
+| $\Delta T$ | DT | K | temperature difference (Th-Tc) |
 | $s$ | CF | V<sup>-1</sup> | compatibility factor |
 | $(ZT)_{dev}$ | ZTdev | 1 (dimensionless) | device dimensionless figure-of-merit |
 | $(ZT)_{eng}$ | ZTeng | 1 (dimensionless) | engineering dimensionless figure-of-merit |
