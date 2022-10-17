@@ -84,6 +84,8 @@ and enhances the readability of program scripts.
 - power factor: `PF = 1E-6 S^2·C = 1E-2 S^2/Rho`
 - dimensionless figure-of-merit: `ZT = 1E-10 (S^2·C)/K·T = 1E-4 PF/K·T`
 - compatibility factor: `CF = 1E6 [sqrt(1+ZT)-1]/(S·T)`
+- open-circuit voltage: `Voc = 1E-3 S·DT`
+- short-circuit current density: `Jsc = 1E-5 C·S·DT/L = 1E-1 S·DT/(Rho·L)`
 - thermal conductivity: `K = a·D·Cp` (factor is equal to 1)
 - elastic constant: `Cii = D·vl^2` (factor is equal to 1)
 - relaxation time: `tau = 1/freq` (factor is equal to 1)
