@@ -1,7 +1,7 @@
 ﻿# units4TE
 **热电领域中常见物理量的惯用单位总结**
 
-> 选择语言：简体中文, [English](README-en.md)
+> 选择语言：简体中文, [English](README.md)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在热电研究领域中，
 有些物理量通常会使用一些非国际标准的惯用物理单位，
