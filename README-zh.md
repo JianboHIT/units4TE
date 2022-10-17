@@ -71,6 +71,8 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $j$ | Jd | A·cm<sup>-2</sup> | 电流密度 |
 | $R_{L}$ | RL | Ω | 负载电阻 |
 | $V_{out}$ | Vout | mV | 输出电压 |
+| $j_{sc}$ | Jsc | A·cm<sup>-2</sup> | 短路电流密度 |
+| $V_{oc}$ | Voc | mV | 开路电压 |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | 接触电阻 |
 | $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | 接触热导 |
 

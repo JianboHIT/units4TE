@@ -70,6 +70,8 @@ and enhances the readability of program scripts.
 | $j$ | Jd | A·cm<sup>-2</sup> | current density |
 | $R_{L}$ | RL | Ω | load electric resistance |
 | $V_{out}$ | Vout | mV | output voltage |
+| $j_{sc}$ | Jsc | A·cm<sup>-2</sup> | short-circuit current density |
+| $V_{oc}$ | Voc | mV | open-circuit voltage |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
 | $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
 
