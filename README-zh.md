@@ -76,7 +76,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $j_{sc}$ | Jsc | A·cm<sup>-2</sup> | 短路电流密度 |
 | $V_{oc}$ | Voc | mV | 开路电压 |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | 接触电阻 |
-| $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | 接触热导 |
+| $\kappa_{c}$ | Kc | K·cm<sup>2</sup>·W<sup>-1</sup> | 接触热阻 |
 
 
 ### Part II: 一些常用的关系及其系数
@@ -89,7 +89,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 - 开路电压: `Voc = 1E-3 S·DT`
 - 短路电流密度: `Jsc = 1E-5 C·S·DT/L = 1E-1 S·DT/(Rho·L)`
 - 热导率: `K = a·D·Cp` (换算系数恰好等于 1)
-- 弹性常数: `Cii = D·vl^2` (换算系数恰好等于 1)
+- 弹性常数: `Cii = D·vL^2` (换算系数恰好等于 1)
 - 弛豫时间: `tau = 1/freq` (换算系数恰好等于 1)
 - 玻尔兹曼常数 ( $k_{B}$ ): `8.6173E-5 eV/K`
 - $k_{B}/e$ : `86.1733 μV/K`

@@ -75,7 +75,7 @@ and enhances the readability of program scripts.
 | $j_{sc}$ | Jsc | A·cm<sup>-2</sup> | short-circuit current density |
 | $V_{oc}$ | Voc | mV | open-circuit voltage |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
-| $\kappa_{c}$ | Kc | W·cm<sup>-2</sup>·K<sup>-1</sup> | thermal contact conductance |
+| $\kappa_{c}$ | Kc | K·cm<sup>2</sup>·W<sup>-1</sup> | thermal contact resistance |
 
 
 ### Part II: Useful Conversion Factors and Relationships
@@ -88,7 +88,7 @@ and enhances the readability of program scripts.
 - open-circuit voltage: `Voc = 1E-3 S·DT`
 - short-circuit current density: `Jsc = 1E-5 C·S·DT/L = 1E-1 S·DT/(Rho·L)`
 - thermal conductivity: `K = a·D·Cp` (factor is equal to 1)
-- elastic constant: `Cii = D·vl^2` (factor is equal to 1)
+- elastic constant: `Cii = D·vL^2` (factor is equal to 1)
 - relaxation time: `tau = 1/freq` (factor is equal to 1)
 - Boltzmann constant ( $k_{B}$ ): `8.6173E-5 eV/K`
 - $k_{B}/e$ : `86.1733 μV/K`
