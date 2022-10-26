@@ -30,9 +30,10 @@ and enhances the readability of program scripts.
 | :----: | :-------: | ---- | ----------- |
 | $T$ | T | K | absolute temperature in Kelvin |
 | $\sigma$ | C | S·cm<sup>-1</sup> | electrical conductivity |
-| $\rho$ | Rho | μΩ·m | electrical resistivity |
+| $\rho$ | Rho | μΩ·m | electrical resistivity (= $1/\sigma$) |
 | $S$ | S | μV·K<sup>-1</sup> | Seebeck coefficient or thermopower |
 | $\kappa$ | K | W·m<sup>-1</sup>·K<sup>-1</sup> | thermal conductivity |
+| $\theta$ or $R_{t}$ | Rth | m·K·W<sup>-1</sup> | thermal resistivity (= $1/\kappa$ ) |
 | $PF$ | PF | μW·cm<sup>-1</sup>·K<sup>-2</sup> | power factor |
 | $z$ | Z | K<sup>-1</sup> | figure-of-merit of thermoelectric material |
 | $ZT$ | ZT | 1 (dimensionless) | dimensionless figure-of-merit |
@@ -56,7 +57,7 @@ and enhances the readability of program scripts.
 | $v_{t}$ | vT | km·s<sup>-1</sup> | transverse sound velocity |
 | $\tau$ | tau | ps (=10<sup>-12</sup> s) | relaxation time or quantum lifetime |
 | $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | ordinal frequency |
-| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | angular frequency |
+| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | angular frequency (= $2\pi f$) |
 | $T_{c}$ | Tc | K | temperature at the cold side |
 | $T_{h}$ | Th | K | temperature at the hot side |
 | $\Delta T$ | DT | K | temperature difference (Th-Tc) |

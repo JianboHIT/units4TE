@@ -31,9 +31,10 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | :----: | :-------: | ---- | ----------- |
 | $T$ | T | K | 开氏绝对温度 |
 | $\sigma$ | C | S·cm<sup>-1</sup> | 电导率 |
-| $\rho$ | Rho | μΩ·m | 电阻率 |
+| $\rho$ | Rho | μΩ·m | 电阻率(= $1/\sigma$) |
 | $S$ | S | μV·K<sup>-1</sup> | 塞贝克系数或者热电势 |
 | $\kappa$ | K | W·m<sup>-1</sup>·K<sup>-1</sup> | 热导率 |
+| $\theta$ or $R_{t}$ | Rth | m·K·W<sup>-1</sup> | 热阻率 (= $1/\kappa$ ) |
 | $PF$ | PF | μW·cm<sup>-1</sup>·K<sup>-2</sup> | 功率因子 |
 | $z$ | Z | K<sup>-1</sup> | 热电材料优值 |
 | $ZT$ | ZT | 1 (dimensionless) | 无量纲热电优值 |
@@ -57,7 +58,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $v_{t}$ | vT | km·s<sup>-1</sup> | 横向声速 |
 | $\tau$ | tau | ps (=10<sup>-12</sup> s) | 弛豫时间或粒子寿命 |
 | $\nu$ or $f$ | freq | THz (=ps<sup>-1</sup>) | 圆频率 |
-| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | 角频率 |
+| $\omega$ | w | rad·ps<sup>-1</sup> (=THz) | 角频率(= $2\pi f$) |
 | $T_{c}$ | Tc | K | 热端温度 |
 | $T_{h}$ | Th | K | 冷端温度 |
 | $\Delta T$ | DT | K | 温度差 (Th-Tc) |
