@@ -75,7 +75,7 @@ and enhances the readability of program scripts.
 | $j_{sc}$ | Jsc | A·cm<sup>-2</sup> | short-circuit current density |
 | $V_{oc}$ | Voc | mV | open-circuit voltage |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | electrical contact resistance |
-| $\kappa_{c}$ | Kc | K·cm<sup>2</sup>·W<sup>-1</sup> | thermal contact resistance |
+| $\kappa_{c}$ | Kc | cm<sup>2</sup>·K·W<sup>-1</sup> | thermal contact resistance |
 
 
 ### Part II: Useful Conversion Factors and Relationships

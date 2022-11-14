@@ -76,7 +76,7 @@ S/cm，10<sup>4</sup> S/m，μΩ·m 以及 mΩ·cm 等惯用单位都有被使�
 | $j_{sc}$ | Jsc | A·cm<sup>-2</sup> | 短路电流密度 |
 | $V_{oc}$ | Voc | mV | 开路电压 |
 | $R_{c}$ | Rc | μΩ·cm<sup>2</sup> (=10<sup>-10</sup> Ω·m<sup>2</sup>) | 接触电阻 |
-| $\kappa_{c}$ | Kc | K·cm<sup>2</sup>·W<sup>-1</sup> | 接触热阻 |
+| $\kappa_{c}$ | Kc | cm<sup>2</sup>·K·W<sup>-1</sup> | 接触热阻 |
 
 
 ### Part II: 一些常用的关系及其系数
